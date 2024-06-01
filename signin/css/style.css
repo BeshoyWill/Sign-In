@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #24353F;
+    --secondary-color: #18242B;
+    --button-color: #FFC107;
+    --text-color: #17A2B8;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+header {
+    height: 100vh;
+}
+
+.box {    
+    padding-block: 40px;
+    margin-top: 50px;
+    padding-inline: 40px;
+    max-width: 830px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.header-text {
+    color: var(--text-color);
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control {
+    background-color: var(--primary-color) ;
+    margin-block: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.648);
+    color: white;
+}
+
+.form-control:focus {
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.648) !important;
+    font-size: 16px;
+}
+
+.custom-button {
+    width: 100%;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.custom-button:hover {
+    background-color: var(--text-color);
+    color: white;
+    transition: 0.5s;
+}
+
+.custom-button:active {
+    background-color: var(--text-color) !important;
+    color: white !important;
+    border: 2px solid var(--text-color) !important;
+}
+
+.login-text {
+    color: white;
+    margin-top: 20px;
+}
+
+.signup-link {
+    text-decoration: none;
+    font-family: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}

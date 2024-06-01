@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #24353F;
+    --secondary-color: #18242B;
+    --button-color: #FFC107;
+    --text-color: #17A2B8;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.custom-nav {
+    background-color: #24353F !important;
+    box-shadow: 0px 15px 25px var(--secondary-color);
+}
+
+.custom-container {
+    width: 75%;
+}
+
+nav .logo {
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+nav .custom-button {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    border: 1px solid var(--button-color);
+    padding-block: 8px; 
+}
+
+nav .custom-button:hover {
+    background-color: var(--button-color);
+    color: white;
+    box-shadow: 0 0 10px var(--button-color);
+    outline: 2px solid #ffc107ab;
+}
+
+nav .custom-button:focus {
+    outline: 2px solid #ffc107ab;
+    color: white;
+}
+
+header {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 50px;
+    margin-top: 50px;
+    max-width: 800px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.header-text {
+    color: var(--text-color);
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
